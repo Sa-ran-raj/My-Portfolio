@@ -1,8 +1,28 @@
-# React + Vite
+# 💼 Saran Raj - Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio website built using **React.js**! This website showcases my skills, projects, and experience as a full-stack developer. It also features a contact form that uses **Nodemailer** to send emails directly to my inbox.
 
-Currently, two official plugins are available:
+🔗 **Live Site**: [https://sa-ran-raj.github.io/Saran-Portfolio/](https://sa-ran-raj.github.io/Saran-Portfolio/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+
+- 🌐 Responsive and elegant UI built with **React.js**
+- 📂 Projects section highlighting my work with live links and GitHub repos
+- 📜 About Me section with a short introduction
+- 📫 Contact form powered by **Nodemailer** to send messages
+- 🧩 Deployed on **GitHub Pages**
+
+## 🛠️ Technologies Used
+
+- **Frontend**: React.js, HTML5, CSS3, JavaScript
+- **Email Service**: Nodemailer (Backend/API hosted separately)
+- **Hosting**: GitHub Pages
+
+## 📬 Contact Form with Nodemailer
+
+The contact form collects name, email, subject, and message, and sends it using a **Nodemailer-powered backend**. This backend is typically deployed on platforms like **Render**, **Railway**, or **Vercel Functions**.
+
+> ⚠️ For security reasons, the backend is not included in this repository. If you’d like to see or reuse the Nodemailer setup, feel free to contact me.
+
+## 📁 Folder Structure (Frontend)
+
