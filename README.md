@@ -20,9 +20,5 @@ Welcome to my personal portfolio website built using **React.js**! This website 
 
 ## 📬 Contact Form with Nodemailer
 
-The contact form collects name, email, subject, and message, and sends it using a **Nodemailer-powered backend**. This backend is typically deployed on platforms like **Render**, **Railway**, or **Vercel Functions**.
-
-> ⚠️ For security reasons, the backend is not included in this repository. If you’d like to see or reuse the Nodemailer setup, feel free to contact me.
-
-## 📁 Folder Structure (Frontend)
+The contact form collects name, email, subject, and message, and sends it using a **Nodemailer-powered backend**. 
 
