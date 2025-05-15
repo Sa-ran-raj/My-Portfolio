@@ -140,7 +140,7 @@ const Portfolio = () => {
                     <div className="text-center">
                         <div className="relative inline-block">
                             <img
-                                src="/images/saran.jpg"
+                                src={`${import.meta.env.BASE_URL}/images/saran.jpg`}
                                 alt="Profile"
                                 className="mx-auto h-40 w-40 rounded-full ring-4 ring-purple-500 ring-offset-4 ring-offset-gray-900 object-cover"
                             />
@@ -178,14 +178,14 @@ const Portfolio = () => {
                     </h2>
                     <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
                         {[
-                            { name: 'React', imgPath: '/images/react.svg' },
-                            { name: 'Node.js', imgPath: '/images/nodejs.svg' },
-                            { name: 'Express.js', imgPath: '/images/expressjs.svg' },
-                            { name: 'Java', imgPath: '/images/image.png' },
-                            { name: 'MongoDB', imgPath: '/images/mongodb.svg' },
-                            { name: 'JavaScript', imgPath: '/images/javascript.svg' },
-                            { name: 'Tailwind-Css', imgPath: '/images/tailwindcss.svg' },
-                            { name: 'My-Sql', imgPath: '/images/img.png' }
+                            { name: 'React', imgPath: `${import.meta.env.BASE_URL}/images/react.svg` },
+                            { name: 'Node.js', imgPath: `${import.meta.env.BASE_URL}/images/nodejs.svg` },
+                            { name: 'Express.js', imgPath: `${import.meta.env.BASE_URL}/images/expressjs.svg` },
+                            { name: 'Java', imgPath: `${import.meta.env.BASE_URL}/images/image.png` },
+                            { name: 'MongoDB', imgPath: `${import.meta.env.BASE_URL}/images/mongodb.svg` },
+                            { name: 'JavaScript', imgPath: `${import.meta.env.BASE_URL}/images/javascript.svg` },
+                            { name: 'Tailwind CSS', imgPath: `${import.meta.env.BASE_URL}/images/tailwindcss.svg` },
+                            { name: 'MySQL', imgPath: `${import.meta.env.BASE_URL}/images/img.png` }
                         ].map((skill) => (
                             <div
                                 key={skill.name}
@@ -193,7 +193,7 @@ const Portfolio = () => {
                             >
                                 <div className="flex flex-col items-center">
                                     <img itemType='image/svg+xml'
-                                        src={skill.imgPath}
+                                        src={skill.imgPath} 
                                         alt={skill.name}
                                         className="w-16 h-16 mb-4 opacity-80 group-hover:opacity-100"
                                     />
@@ -216,19 +216,19 @@ const Portfolio = () => {
                             {
                                 title: 'CRUD Application Using MERN Stack',
                                 description: 'This is Web application built with Mongo DB, Express JS, Node JS, React JS, Bootstrap. This gives a features of full CURD functionality, Responsive design, User Friendly Interface',
-                                coverImage: '/images/crud.png', // Add your cover image path here
+                                coverImage: `${import.meta.env.BASE_URL}/images/crud.png`, // Add your cover image path here
                                 link: 'https://todo-frontend-react-js-six.vercel.app/'
                             },
                             {
                                 title: 'Project On Movie Review Web Application',
                                 description: 'The website is a movie review platform built with HTML, CSS, Bootstrap, and JavaScript, utilizing Java Spring Boot for the backend and MongoDB for the database. Users can submit reviews for movies by entering their name and review text, and they can also watch trailers for the films. The site does not require user authentication, making it easy for anyone to share their thoughts and engage with movie content.',
-                                coverImage: '/images/Movie.png', // Add your cover image path here
+                                coverImage: `${import.meta.env.BASE_URL}/images/Movie.png`, // Add your cover image path here
                                 link: 'https://moviereview-front.vercel.app/'
                             },
                             {
                                 title: 'Chat-Bot Application',
                                 description: "This is a React-based chat application that uses Google's Gemini Pro AI model to create an interactive chatbot experience. This project demonstrates a practical implementation of AI chat functionality with a focus on user experience and modern web design principles. It's built using React, Axios for API calls, and Tailwind CSS for styling.",
-                                coverImage: '/images/ai.png', // Add your cover image path here
+                                coverImage:`${import.meta.env.BASE_URL}/images/ai.png`,// Add your cover image path here
                                 link: 'https://gemi-ai-livid.vercel.app/'
                             }
                         ].map((project, index) => (
